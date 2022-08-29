@@ -1,0 +1,27 @@
+.row {
+    text-align: center;
+}
+
+.blue-strip {
+    background: blue;
+    width: 33.3%;
+    float: left;
+}
+
+.red-strip {
+    background: red;
+    width: 33.3%;
+    float: left;
+}
+
+.green-strip {
+    background-color: green;
+    width: 33.3%;
+    float: left;
+}
+
+@media  screen and (max-width: 768px) {
+    [class*="-strip"] {
+        width: 100%;
+    }
+}
